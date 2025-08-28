@@ -72,12 +72,13 @@ void hill(char *in, char *out, int enc)
   out[len] = 0;
 }
 int main() {
-  char msg[] = "VARSHA", enc[100], dec[100];
+  char msg[] = "BHARANI", enc[100], dec[100];
   hill(msg, enc, 1); printf("Encrypted: %s\n", enc);
   hill(enc, dec, 0); printf("Decrypted: %s\n", dec);
 }
 ~~~
 ## OUTPUT
-![cry ex 3](https://github.com/user-attachments/assets/31002007-4a71-4bf6-b2c8-79023cbf69d2)
+<img width="1313" height="812" alt="image" src="https://github.com/user-attachments/assets/0a7ded27-28b3-44d8-9776-4269ba773fac" />
+
 ## RESULT
 The program is executed successfully
